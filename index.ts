@@ -3,7 +3,7 @@ import cors from "cors";
 import axios from "axios";
 import cheerio from "cheerio";
 
-const PORT = 8080;
+const PORT = 80;
 const CORS_ORIGIN = "http://localhost:3000";
 
 const app = express();
