@@ -12,7 +12,7 @@ RUN npm run build
 ## Bundle static files
 FROM ubuntu:20.04
 WORKDIR /app
-COPY --from=build /app/.env /app
+##COPY --from=build /app/.env /app
 COPY --from=build /app/build /app/build
 COPY --from=build /app/node_modules /app/node_modules
 
