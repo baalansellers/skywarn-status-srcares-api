@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "node ./build/index.js",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "pm2-runtime start ecosystem.config.js --env production"
   },
   "dependencies": {
     "axios": "^0.24.0",
