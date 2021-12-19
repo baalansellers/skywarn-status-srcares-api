@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "node ./build/index.js",
+    "dev": "node ./build/server.js",
     "build": "tsc"
   },
   "dependencies": {
